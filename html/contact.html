@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="../assets/images/logo-top.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    body {
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #eee;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+
+    .imgSection {
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgSection img {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .contactSection {
+        width: 500px;
+    }
+
+
+    .contactSection {
+        margin-top: -50px;
+    }
+
+    .contactSection h2 {
+        font-size: 42px;
+        color: #333;
+    }
+
+    .contactSection h2 span {
+        color: #4d5bf9;
+    }
+
+    .contactSection .formSection {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contactSection .formSection .borderInput {
+        border-bottom: 1px solid #333;
+        margin: 12px 0;
+    }
+
+    .contactSection .formSection .borderInput input {
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 18px;
+    }
+
+    .contactSection .formSection .buttonSend {
+        margin-top: 50px;
+    }
+
+    .contactSection .formSection .buttonSend a {
+        background: #4d5bf9;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    .contactSection .socialSection .mailContact h2{
+        padding: 0;
+        margin: 0;
+    }
+    .contactSection .socialSection .mailContact p{
+        margin-top: -20px;
+    }
+    .contactSection .socialSection .socialContact{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+    .contactSection .socialSection .socialContact a i{
+        color: #4d5bf9;
+        font-size: 25px;
+    }
+
+    @media (max-width: 991px) {
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .contactSection{
+            margin-top: 50px;
+        }
+    }
+</style>
+
+<body>
+    <div class="imgSection">
+        <img src="../assets/images/photo_2022-10-30_12-23-09.jpg" alt="">
+    </div>
+    <div class="contactSection">
+        <h2>Contact <span>Us</span></h2>
+        <div class="formSection">
+            <div class="mailSection">
+                <div class="borderInput">
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="borderInput">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="borderInput">
+                    <input type="text" placeholder="Message">
+                </div>
+                <div class="buttonSend">
+                    <a href="#">Contact <span>Us</span> </a>
+                </div>
+            </div>
+            <div class="socialSection">
+                <div class="mailContact">
+                    <h4>Contact:</h4>
+                    <a href="https://mailto:maruf123erkinov@gmail.com">maruf123erkinov@gmail.com</a>
+                </div>
+                <div class="socialContact">
+                    <div class="icon">
+                        <a href="https://t.me/jstgk"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/freenoff.m/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://m.me/freenoff.m"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
